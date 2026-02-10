@@ -62,7 +62,7 @@ const PROJECTS = {
     layout: "two-col",
     images: [
       {
-        src: "imagenes_proyectos/CODDIX BRAND 33.png",
+        src: "imagenes_proyectos/coddix nuevo.png",
         alt: "C1", 
         full: true
       }
