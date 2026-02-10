@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto | AG</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="imagenes/GATUKIII.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark">AG</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span class="menu-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="nav">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="projects.html" class="nav-link">Proyectos</a>
+        <a href="about.html" class="nav-link">Sobre mi</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="projects-topbar" aria-hidden="true"></div>
+
+  <main class="project-page">
+    <div class="container">
+      <section class="project-hero">
+        <div class="project-year" id="pYear"></div>
+        <h1 class="project-title" id="pTitle"></h1>
+        <p class="project-desc" id="pDesc"></p>
+      </section>
+
+      <!-- Galería -->
+      <section class="project-gallery">
+        <div class="gallery-grid" id="gallery">
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+          <a href="index.html" class="footer-link" rel="noopener">Inicio</a>
+          <a href="projects.html" class="footer-link" rel="noopener">Proyectos</a>
+          <a href="about.html" class="footer-link" rel="noopener">Sobre mi</a>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-title">Email: arigplaz@espol.edu.ec</div>
+        <div class="footer-title">Tel: +593-97-930-0918</div>
+      </div>
+
+      <div class="footer-col footer-right">
+          <a href="https://www.linkedin.com/in/ariana-gutierrez-aa920227a/" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="CV-AG.pdf" class="footer-link" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> 
+  <script src="project.js"></script> 
+</body>
+</html>

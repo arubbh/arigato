@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="imagenes/GATUKIII.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark">AG</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span class="menu-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="nav">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="projects.html" class="nav-link">Proyectos</a>
+        <a href="about.html" class="nav-link">Sobre mi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title">BIENVENIDOS<br />A MI PORTAFOLIO</h1>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2 class="section-title">Latest work</h2>
+
+        <div class="grid">
+          <article class="card">
+            <a class="card-media" href="project.html?id=goat">
+              <img
+                src="imagenes/mockup goat.jpg.jpeg"
+                alt="Mockup editorial de revista"
+                loading="lazy"
+              />
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">GOAT | Music Magazine</h3>
+              <p class="card-meta">Magazine Design, Editorial</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <a class="card-media" href="project.html?id=manifiesto">
+              <img
+                src="imagenes/manifesto mock up tode.png"
+                alt="Libro abierto sobre mesa"
+                loading="lazy"
+              />
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">Incomplete Manifesto for Growth</h3>
+              <p class="card-meta">Book Design, Editorial</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <a class="card-media" href="project.html?id=coddix">
+              <img
+                src="imagenes/CODDIX.jpeg"
+                alt="Robot / tecnología"
+                loading="lazy"
+              />
+            </a>
+            <div class="card-body">
+              <h3 class="card-title">CODDIX | Kit de Robótica</h3>
+              <p class="card-meta">Visual Identity, Logo</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-col">
+          <a href="index.html" class="footer-link" rel="noopener">Inicio</a>
+          <a href="projects.html" class="footer-link" rel="noopener">Proyectos</a>
+          <a href="about.html" class="footer-link" rel="noopener">Sobre mi</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Email: arigplaz@espol.edu.ec</div>
+
+          <div class="footer-title">Tel: +593-97-930-0918</div>
+        </div>
+
+        <div class="footer-col footer-right">
+          <a href="https://www.linkedin.com/in/ariana-gutierrez-aa920227a/" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="CV-AG.pdf" class="footer-link" target="_blank" rel="noopener">CV</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
