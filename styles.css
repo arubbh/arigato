@@ -52,7 +52,6 @@ img{ max-width: 100%; display: block; }
 }
 .nav-link:hover{ background: #f4f4f4; }
 
-/* botón hamburguesa (móvil) */
 .menu-btn{
   display: none;
   width: 44px;
@@ -327,17 +326,15 @@ img{ max-width: 100%; display: block; }
   padding: 0 14px 0 8px;
 }
 
-/* Círculo del mismo color que el borde */
 .skill-dot{
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background: var(--c);
   justify-self: start;
-  margin-left: -5px;/* distancia desde el borde izquierdo */
+  margin-left: -5px;
 }
 
-/* Texto */
 .skill-text{
   padding-left: 14px;
   font-size: 18px;
@@ -370,7 +367,7 @@ img{ max-width: 100%; display: block; }
 }
 .footer-right{ text-align: right; }
 
-/* ===== Projects page (nuevo) ===== */
+/* ===== Projects page ===== */
 
 .projects-topbar{
   height: 10px;
@@ -397,7 +394,7 @@ img{ max-width: 100%; display: block; }
   width: 44px;
   height: 44px;
   background: var(--c);
-  border-radius: 0 100% 0 0; /* “esquina redondeada” como en la imagen */
+  border-radius: 0 100% 0 0;
 }
 
 .proj-title{
@@ -437,7 +434,7 @@ img{ max-width: 100%; display: block; }
 .proj-media{
   display: block;
   width: 100%;
-  aspect-ratio: 16/7; /* parecido a tus screenshots */
+  aspect-ratio: 16/7;
   overflow: hidden;
   background: #eee;
 }
@@ -503,7 +500,6 @@ img{ max-width: 100%; display: block; }
   color: #111;
 }
 
-/* Galería: por defecto 2 columnas */
 .gallery-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -512,7 +508,6 @@ img{ max-width: 100%; display: block; }
   align-items: start;
 }
 
-/* Cada item */
 .gallery-item{
   margin: 0;
 }
@@ -523,7 +518,6 @@ img{ max-width: 100%; display: block; }
   display: block;
 }
 
-/* Pie de foto centrado como tus ejemplos */
 .gallery-cap{
   margin-top: 10px;
   font-size: 12px;
@@ -531,12 +525,10 @@ img{ max-width: 100%; display: block; }
   text-align: center;
 }
 
-/* Para imágenes que deben ocupar toda la fila */
 .gallery-item.is-full{
   grid-column: 1 / -1;
 }
 
-/* Si un proyecto quiere 1 columna */
 .gallery-grid.is-one-col{
   grid-template-columns: 1fr;
 }

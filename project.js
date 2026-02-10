@@ -200,7 +200,7 @@ const PROJECTS = {
   }
 };
 
-// ========= 2) Helpers =========
+// ========= Helpers =========
 function getQueryParam(name) {
   const url = new URL(window.location.href);
   return url.searchParams.get(name);
@@ -212,7 +212,7 @@ function el(tag, className) {
   return node;
 }
 
-// ========= 3) Render =========
+// ========= Render =========
 document.addEventListener("DOMContentLoaded", () => {
   const id = (getQueryParam("id") || "goat").toLowerCase();
   const project = PROJECTS[id] || PROJECTS["goat"];
