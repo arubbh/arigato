@@ -89,32 +89,6 @@ const PROJECTS = {
     ]
   },
 
-  "mooc": {
-    year: "2025",
-    title: "MEDIA LEADERS",
-    desc:
-      "Interfaz del MOOC | Vista previa, módulos, inicio",
-    layout: "two-col",
-    images: [
-      {
-        src: "imagenes_proyectos/Inicio.png",
-        alt: "Mo1"
-      },
-      {
-        src: "imagenes_proyectos/Módulo 1.png",
-        alt: "Mo2"
-      },
-      {
-        src: "imagenes_proyectos/Cápsulas Especializadas.png",
-        alt: "Mo3"
-      },
-      {
-        src: "imagenes_proyectos/Mis Insignias.png",
-        alt: "Mo4"
-      }
-    ]
-  },
-
   "portafolio": {
     year: "2026",
     title: "MI PORTAFOLIO",
