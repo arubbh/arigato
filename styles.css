@@ -39,6 +39,12 @@ img{ max-width: 100%; display: block; }
 }
 .brand-mark{ font-weight: 700; }
 
+.brand img.brand-logo {
+  height: 35px; /* Puedes ajustar esta altura según prefieras (ej. 30px o 40px) */
+  width: auto;
+  display: block;
+}
+
 .nav{
   display: flex;
   gap: 18px;

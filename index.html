@@ -15,7 +15,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="Ir al inicio">
-        <span class="brand-mark">AG</span>
+        <img src="imagenes/GATUKIII.png" alt="Logo AG" class="brand-logo" />
       </a>
 
       <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
@@ -40,51 +40,9 @@
 
     <section id="proyectos" class="section">
       <div class="container">
-        <h2 class="section-title">Latest work</h2>
-
-        <div class="grid">
-          <article class="card">
-            <a class="card-media" href="project.html?id=goat">
-              <img
-                src="imagenes/mockup goat.jpg.jpeg"
-                alt="Mockup editorial de revista"
-                loading="lazy"
-              />
-            </a>
-            <div class="card-body">
-              <h3 class="card-title">GOAT | Music Magazine</h3>
-              <p class="card-meta">Magazine Design, Editorial</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=manifiesto">
-              <img
-                src="imagenes/manifesto mock up tode.png"
-                alt="Libro abierto sobre mesa"
-                loading="lazy"
-              />
-            </a>
-            <div class="card-body">
-              <h3 class="card-title">Incomplete Manifesto for Growth</h3>
-              <p class="card-meta">Book Design, Editorial</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=coddix">
-              <img
-                src="imagenes/CODDIX.jpeg"
-                alt="Robot / tecnología"
-                loading="lazy"
-              />
-            </a>
-            <div class="card-body">
-              <h3 class="card-title">CODDIX | Kit de Robótica</h3>
-              <p class="card-meta">Visual Identity, Logo</p>
-            </div>
-          </article>
-        </div>
+        <h2 class="section-title">Últimos Trabajos</h2>
+         <!-- Se llenará automáticamente con JS -->
+        <div class="grid" id="latest-projects-grid"></div>
       </div>
     </section>
 
@@ -111,6 +69,7 @@
     </footer>
   </main>
 
+  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

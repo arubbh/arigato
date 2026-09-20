@@ -15,7 +15,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="Ir al inicio">
-        <span class="brand-mark">AG</span>
+        <img src="imagenes/GATUKIII.png" alt="Logo AG" class="brand-logo" />
       </a>
 
       <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
@@ -48,28 +48,8 @@
 
         <div class="proj-divider" style="--c:#86A7FF;" aria-hidden="true"></div>
 
-        <div class="proj-grid">
-          <article class="card">
-            <a class="card-media" href="project.html?id=goat">
-              <img src="imagenes/mockup goat.jpg.jpeg"
-                   alt="GOAT | Music Magazine" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">GOAT | Music Magazine</h3>
-              <p class="proj-meta">Magazine Design, Editorial</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=manifiesto">
-              <img src="imagenes/manifesto mock up tode.png"
-                   alt="Incomplete Manifesto for Growth" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">Incomplete Manifesto for Growth</h3>
-              <p class="proj-meta">Book Design, Editorial</p>
-            </div>
-          </article>
+        <div class="proj-grid" id="grid-editorial">
+          <!-- Se llena automáticamente con JavaScript -->
         </div>
       </section>
 
@@ -86,28 +66,8 @@
 
         <div class="proj-divider" style="--c:#2F6BFF;" aria-hidden="true"></div>
 
-        <div class="proj-grid">
-          <article class="card">
-            <a class="card-media" href="project.html?id=coddix">
-              <img src="imagenes/CODDIX.jpeg"
-                   alt="CODDIX | Kit de Robótica" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">CODDIX | Kit de Robótica</h3>
-              <p class="proj-meta">Visual Identity, Logo</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=arigato">
-              <img src="imagenes/manual de marca personal-01.png"
-                   alt="ARIGATO | Marca Personal" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">ARIGATO | Marca Personal</h3>
-              <p class="proj-meta">Visual Identity, Logo</p>
-            </div>
-          </article>
+        <div class="proj-grid" id="grid-visual-identity">
+          <!-- Se llena automáticamente con JavaScript -->
         </div>
       </section>
 
@@ -124,30 +84,8 @@
 
         <div class="proj-divider" style="--c:#E05252;" aria-hidden="true"></div>
 
-        <div class="proj-grid">
-          <!--  
-          <article class="card">
-            <a class="card-media" href="project.html?id=mooc">
-              <img src="imagenes/app mockup mooc.jpg.jpeg"
-                   alt="Interfaz | Media Leaders" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">Interfaz | Media Leaders</h3>
-              <p class="proj-meta">MOOC</p>
-            </div>
-          </article>
-          -->
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=portafolio">
-              <img src="imagenes/MacBook_Mockup_1.jpg.jpeg"
-                   alt="Interfaz | Mi Portafolio" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">Interfaz | Mi Portafolio</h3>
-              <p class="proj-meta">Website</p>
-            </div>
-          </article>
+        <div class="proj-grid" id="grid-ui-design">
+          <!-- Se llena automáticamente con JavaScript -->
         </div>
       </section>
 
@@ -164,28 +102,8 @@
 
         <div class="proj-divider" style="--c:#111111;" aria-hidden="true"></div>
 
-        <div class="proj-grid">
-          <article class="card">
-            <a class="card-media" href="project.html?id=flyers">
-              <img src="imagenes/FLYER tamaño post vertical.jpg.jpeg"
-                   alt="Batallas" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">Batallas</h3>
-              <p class="proj-meta">Flyers</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <a class="card-media" href="project.html?id=fiec">
-              <img src="imagenes/ig stories fiec.png"
-                   alt="Talleres" loading="lazy">
-            </a>
-            <div class="card-body">
-              <h3 class="proj-name">Talleres</h3>
-              <p class="proj-meta">IG Carousel</p>
-            </div>
-          </article>
+        <div class="proj-grid" id="grid-social-media">
+          <!-- Se llena automáticamente con JavaScript -->
         </div>
       </section>
 
@@ -203,7 +121,6 @@
 
       <div class="footer-col">
         <div class="footer-title">Email: arigplaz@espol.edu.ec</div>
-
         <div class="footer-title">Tel: +593-97-930-0918</div>
       </div>
 
@@ -215,6 +132,9 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Scripts: Importante cargar data.js primero -->
+  <script src="data.js"></script>
+  <script src="script.js"></script> 
+  <script src="project.js"></script>
 </body>
 </html>
